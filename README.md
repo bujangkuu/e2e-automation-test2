@@ -1,7 +1,7 @@
 # Katalon end2end Test Automation
 ## kasirAja
 
-## Running automated tests with Katalon Studio
+### Running automated tests with Katalon Studio
 
 Here are the steps to run automated tests with Katalon Studio on this project:
 
