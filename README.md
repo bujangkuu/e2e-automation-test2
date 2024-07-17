@@ -19,5 +19,3 @@ Here are the steps to run automated tests with Katalon Studio on this project:
 5. Check and update the project configuration if necessary.
 6. In the Project Explorer panel, navigate to the “Test Cases” folder and open the test script you want to run.
 7. Click the “Run” button to run the test.
-
-Translated with DeepL.com (free version)
