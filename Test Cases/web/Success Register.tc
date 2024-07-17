@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Succsess Register</name>
+   <name>Success Register</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
@@ -12,11 +12,24 @@
       <value></value>
       <variableId>44013307-22f1-46f0-b0be-7b5aa886ea67</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f94ec2ae-5460-41ac-a9f8-1acf3e521aaa</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'0907test2'</defaultValue>
+      <defaultValue>'1607test'</defaultValue>
       <description></description>
       <id>44013307-22f1-46f0-b0be-7b5aa886ea67</id>
       <masked>false</masked>
       <name>nama_toko</name>
+   </variable>
+   <variable>
+      <defaultValue>'1607test@gmail.com'</defaultValue>
+      <description></description>
+      <id>f94ec2ae-5460-41ac-a9f8-1acf3e521aaa</id>
+      <masked>false</masked>
+      <name>email</name>
    </variable>
 </TestCaseEntity>

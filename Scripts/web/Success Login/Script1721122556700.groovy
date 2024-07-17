@@ -21,13 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.click(findTestObject('Object Repository/Register/a_ingin mencoba, daftar'))
+WebUI.setText(findTestObject('Login/input_email'), input_email)
 
-WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), nama_toko)
+WebUI.setText(findTestObject('Login/input_password'), input_password)
 
-WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), '0907test@gmail.com')
+WebUI.click(findTestObject('Login/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), 'UNm8fyykLzCJWSjnuJ4fdw==')
-
-WebUI.click(findTestObject('Object Repository/Register/button_daftar'))
+WebUI.verifyElementText(findTestObject('Homepage/txt_namaToko'), '1607test')
 
