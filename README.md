@@ -1,2 +1,2 @@
-# API Automation Repository for kasirAja Website 
-## Preparation
+# Katalon end2end Test Automation
+## kasirAja
